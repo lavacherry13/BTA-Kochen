@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BTA Kochen / leckerschmecker</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
@@ -23,17 +23,87 @@
           <li>
             <a href="#">Home</a>
           </li>
-         <li>
+          <li>
             <a href="#">Rezepte</a>
-         </li>
-         <li>
+          </li>
+          <li>
             <a href="#">Kategorien</a>
-         <li>
+          </li>
+          <li>
             <a href="#">Kontakt</a>
-            </li>
-         </li>
+          </li>
         </ul>
       </nav>
     </header>
+
+    <main>
+      <section id="hero">
+        <h1>Die besten Rezepte für Webworker</h1>
+        <p>Es gibt mehr Pizza als Ravioli</p>
+        <a href="#rezepte" class="button">Entdecke die Leckereien</a>
+      </section>
+
+      <!-- Rezepte-->
+
+      <section id="rezepte">
+        <h2>Die neusten Rezepte</h2>
+        <div class="row">
+          <!--Karte beginnt hier-->
+          <div class="card">
+            <img src="img/burger.jpg" alt="Burger" />
+            <h3>Total leckerer Burger</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+              fugit velit excepturi facere odio laboriosam aliquam.
+            </p>
+            <a href="#" class="button button-blue">zum Rezept</a>
+          </div>
+
+          <div class="card">
+            <img src="img/burger.jpg" alt="Burger" />
+            <h3>Total leckerer Burger</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+              fugit velit excepturi facere odio laboriosam aliquam.
+            </p>
+            <a href="#" class="button button-blue">zum Rezept</a>
+          </div>
+
+          <div class="card">
+            <img src="img/burger.jpg" alt="Burger" />
+            <h3>Total leckerer Burger</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+              fugit velit excepturi facere odio laboriosam aliquam.
+            </p>
+            <a href="#" class="button button-blue">zum Rezept</a>
+          </div>
+
+          <div class="card">
+            <img src="img/burger.jpg" alt="Burger" />
+            <h3>Total leckerer Burger</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+              fugit velit excepturi facere odio laboriosam aliquam.
+            </p>
+            <a href="#" class="button button-blue">zum Rezept</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Email/Newsletter Formular-->
+    <div id="formular">
+      <h2>Kein Rezept mehr verpassen</h2>
+      <p>Hol dir unseren Newsletter</p>
+      <form action="" method="get">
+        <input type="email" name="email" id="email">
+        <button type="submit" class="button">Abonnieren</button>
+    
+      </form>
+    </div>
+
+    <!-- JavaScript einbinden-->
+    <script src="js/menu.js"></script>
   </body>
 </html>
